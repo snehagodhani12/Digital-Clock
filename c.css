@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .clock {
+    font-size: 6em;
+    color: #1405f1;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(4, 26, 219, 0.5);
+    text-align: center;
+  }
+  
+  #time {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
